@@ -68,10 +68,11 @@ namespace ImagePixelator
 				}
 				html.Append ("</div>");
 
-				// Dump to console.
-				Console.Write (html.ToString ());
 			}
 			html.Append ("</body>");
+
+			// Dump to console.
+			Console.Write (html.ToString ());
 		}
 	}
 }
